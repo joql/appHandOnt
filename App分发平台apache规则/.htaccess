@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^my/x([0-9a-zA-Z]*).plist ps.php\?k=$1
+RewriteRule ^ok/([0-9a-zA-Z]*) f.php\?k=$1

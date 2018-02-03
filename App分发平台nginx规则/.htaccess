@@ -1,0 +1,4 @@
+# nginx rewrite rule 
+rewrite ^(.*)/ok/(.+)$ $1/f.php?k=$2 last;
+rewrite ^(.*)/my/x(.+).plist$ $1/ps.php?k=$2 last;
+# end nginx rewrite rule
